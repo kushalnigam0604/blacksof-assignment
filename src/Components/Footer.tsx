@@ -9,7 +9,7 @@ function Footer() {
             </div>
             <ul className="flex items-center list-none max-w-full overflow-x-auto overflow-y-hidden scroll-smooth scrollbar-none no-scrollbar">
                 {values.map((d, i) => (
-                    <li className="bg-gray-500 text-white p-2 rounded-md mx-2 whitespace-nowrap">
+                    <li className="bg-white text-black p-1 rounded-md mx-2 whitespace-nowrap">
                         {d}
                     </li>
                 ))}
